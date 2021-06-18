@@ -32,7 +32,8 @@ namespace ChatServer
             {
                 tcpListener = new TcpListener(IPAddress.Any, 8888);
                 tcpListener.Start();
-                Console.WriteLine("Сервер запущен. Ожидание подключений...");
+
+                InfoMessage("Сервер запущен. Ожидание подключений...");
 
                 while (true)
                 {
@@ -48,6 +49,13 @@ namespace ChatServer
                 Console.WriteLine(ex.Message);
                 Disconnect();
             }
+        }
+
+        private static void InfoMessage(string message)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(message);
+            Console.ResetColor();
         }
 
         // трансляция сообщения подключенным клиентам

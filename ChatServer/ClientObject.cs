@@ -45,8 +45,7 @@ namespace ChatServer
                     }
                     catch
                     {
-                        message = String.Format("{0}: покинул чат", userName);
-                        Console.WriteLine(message);
+                        message = InfoMessage("Покинул чат!", ConsoleColor.Red);
                         server.BroadcastMessage(message, this.Id);
                         break;
                     }
@@ -62,6 +61,14 @@ namespace ChatServer
                 server.RemoveConnection(this.Id);
                 Close();
             }
+        }
+
+        private string InfoMessage(string msg, ConsoleColor color)
+        {
+            string message = String.Format($"{userName}: {msg}");
+            Console.ForegroundColor = color;
+            Console.WriteLine(message);
+            return message;
         }
 
         // чтение входящего сообщения и преобразование в строку

@@ -76,11 +76,18 @@ namespace ChatClient
                 }
                 catch
                 {
-                    Console.WriteLine("Подключение прервано!"); //соединение было прервано
+                    InfoMessage("Подключение прервано!");
                     Console.ReadLine();
                     Disconnect();
                 }
             }
+        }
+
+        private static void InfoMessage(string message)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(message); //соединение было прервано
+            Console.ResetColor();
         }
 
         static void Disconnect()
