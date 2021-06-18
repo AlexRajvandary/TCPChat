@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Sockets;
 using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 
@@ -33,7 +33,7 @@ namespace ChatServer
                 tcpListener = new TcpListener(IPAddress.Any, 8888);
                 tcpListener.Start();
 
-                InfoMessage("Сервер запущен. Ожидание подключений...");
+                InfoMessage("Сервер запущен. Ожидание подключений...", ConsoleColor.Green);
 
                 while (true)
                 {
@@ -46,14 +46,15 @@ namespace ChatServer
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                InfoMessage(ex.Message, ConsoleColor.Red);
+
                 Disconnect();
             }
         }
 
-        private static void InfoMessage(string message)
+        private static void InfoMessage(string message, ConsoleColor ForeGroundColor)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ForeGroundColor;
             Console.WriteLine(message);
             Console.ResetColor();
         }
