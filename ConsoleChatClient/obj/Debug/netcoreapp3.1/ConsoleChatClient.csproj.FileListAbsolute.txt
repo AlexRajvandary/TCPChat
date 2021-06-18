@@ -1,0 +1,12 @@
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\bin\Debug\netcoreapp3.1\ConsoleChatClient.exe
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\bin\Debug\netcoreapp3.1\ConsoleChatClient.deps.json
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\bin\Debug\netcoreapp3.1\ConsoleChatClient.runtimeconfig.json
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\bin\Debug\netcoreapp3.1\ConsoleChatClient.runtimeconfig.dev.json
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\bin\Debug\netcoreapp3.1\ConsoleChatClient.dll
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\bin\Debug\netcoreapp3.1\ConsoleChatClient.pdb
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\obj\Debug\netcoreapp3.1\ConsoleChatClient.AssemblyInfoInputs.cache
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\obj\Debug\netcoreapp3.1\ConsoleChatClient.AssemblyInfo.cs
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\obj\Debug\netcoreapp3.1\ConsoleChatClient.csproj.CoreCompileInputs.cache
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\obj\Debug\netcoreapp3.1\ConsoleChatClient.dll
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\obj\Debug\netcoreapp3.1\ConsoleChatClient.pdb
+C:\Users\Alex Raj\source\ChatServer\ConsoleChatClient\obj\Debug\netcoreapp3.1\ConsoleChatClient.genruntimeconfig.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex Raj\\source\\ChatServer\\ChatServer\\ChatServer.csproj": {}
+    "C:\\Users\\Alex Raj\\source\\ChatServer\\ConsoleChatClient\\ConsoleChatClient.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex Raj\\source\\ChatServer\\ChatServer\\ChatServer.csproj": {
+    "C:\\Users\\Alex Raj\\source\\ChatServer\\ConsoleChatClient\\ConsoleChatClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex Raj\\source\\ChatServer\\ChatServer\\ChatServer.csproj",
-        "projectName": "ChatServer",
-        "projectPath": "C:\\Users\\Alex Raj\\source\\ChatServer\\ChatServer\\ChatServer.csproj",
+        "projectUniqueName": "C:\\Users\\Alex Raj\\source\\ChatServer\\ConsoleChatClient\\ConsoleChatClient.csproj",
+        "projectName": "ConsoleChatClient",
+        "projectPath": "C:\\Users\\Alex Raj\\source\\ChatServer\\ConsoleChatClient\\ConsoleChatClient.csproj",
         "packagesPath": "C:\\Users\\Alex Raj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex Raj\\source\\ChatServer\\ChatServer\\obj\\",
+        "outputPath": "C:\\Users\\Alex Raj\\source\\ChatServer\\ConsoleChatClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
