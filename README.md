@@ -1,4 +1,4 @@
 # TCPChat
 Learning tcp c# 
 
-![img](images/ConsoleClientServerChat.gif)
+![img](Images/ConsoleClientServerChat.gif)
